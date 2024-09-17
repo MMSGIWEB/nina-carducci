@@ -3,20 +3,15 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-  <link rel="stylesheet" href="./assets/style.css">
-  <title>Ninna Cadurcci</title>
+  <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/style.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
     rel="stylesheet">
   <meta charset="UTF-8">
-  <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="./assets/maugallery.js"></script>
-  <script src="./assets/scripts.js"></script>
+  <title>Ninna Cadurcci</title>
 </head>
 
 <body>
@@ -48,7 +43,6 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <!-- redimenssionner les img + ajout srcset= "plusieurs dimenssions possibles crées avec sharp" -->
             <img src="./assets/images/slider/1024/manInASuit-1024.webp" srcset="./assets/images/slider/320/manInASuit-320.webp 320w,
               ./assets/images/slider/375/manInASuit-375.webp 375w,
                 ./assets/images/slider/425/manInASuit-425.webp 425w,
@@ -59,8 +53,7 @@
               alt="man in a suit crossing the road">
           </div>
           <div class="carousel-item">
-            <!-- ici aussi -->
-            <img src="./assets/images/slider/1024/concertCrowd-1024.webp" srcset="./assets/images/slider/320/concertCrowd-320.webp 320w,
+            <img src="./assets/images/slider/1024/concertCrowd-1024.webp" style="max-width: 100%; height: 100%;" srcset="./assets/images/slider/320/concertCrowd-320.webp 320w,
               ./assets/images/slider/375/concertCrowd-375.webp 375w,
                 ./assets/images/slider/425/concertCrowd-425.webp 425w,
                 ./assets/images/slider/768/concertCrowd-768.webp 768w,
@@ -70,7 +63,6 @@
               class="d-block w-100" alt="crowd in a concert">
           </div>
           <div class="carousel-item">
-            <!-- ici aussi -->
             <img src="./assets/images/slider/1024/mariage-1024.webp" srcset="./assets/images/slider/320/mariage-320.webp 320w,
               ./assets/images/slider/375/mariage-375.webp 375w,
                 ./assets/images/slider/425/mariage-425.webp 425w,
@@ -95,7 +87,6 @@
     </section>
     <section id="about">
       <div class="picture left">
-        <!-- ici aussi -->
         <img src="./assets/images/nina-467.webp" alt="Nina Cadurcci's photo">
       </div>
       <article id="about-me">
@@ -123,7 +114,6 @@
       <h2 class="title">Portfolio</h2>
       <div class="container py-3">
         <div class="gallery" style="display: none">
-          <!-- ici aussi -->
           <img data-gallery-tag="Concert" class="gallery-item"
             src="./assets/images/gallery/concerts/aaron-paul-467.webp" alt="concert">
           <img data-gallery-tag="Entreprises" class="gallery-item"
@@ -236,13 +226,18 @@
           </form>
         </div>
         <div class="picture right">
-          <!-- ici aussi -->
           <img src="./assets/images/camera-467.webp" alt="photo of camera">
         </div>
       </div>
     </section>
   </main>
   <footer></footer>
+
+  <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./assets/maugallerymin.js"></script>
+  <script src="./assets/scriptsmin.js"></script>
 </body>
 
 </html>
