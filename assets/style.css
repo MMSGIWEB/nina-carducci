@@ -244,6 +244,25 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
+footer {
+  background: #d1c08500;
+  color: #00000085;
+  padding-block: 1.5em;
+  text-align: center;
+}
+
+footer p a,
+address a {
+  color: #00000085;
+  text-decoration: none;
+}
+
+footer p a,
+address a:hover {
+  text-decoration: underline;
+  color: #00000085;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
