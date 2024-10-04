@@ -119,10 +119,10 @@
       <h1 class="name">Nina Carducci</h1>
       <nav class="nav" aria-label="navigation menu">
         <ul>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#gallery">Galerie</a></li>
-          <li><a href="#services">Service</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" aria-label="section about">À propos</a></li>
+          <li><a href="#gallery" aria-label="section gallery">Galerie</a></li>
+          <li><a href="#services" aria-label="section services">Service</a></li>
+          <li><a href="#contact" aria-label="section contact">Contact</a></li>
           <li>
             <a
               class="social-link"
@@ -252,6 +252,7 @@
             src="./assets/images/nina-467.webp"
             alt="Nina Cadurcci's photo"
             style="max-width: 550px; max-height: 558px;"
+            aria-label="photo of the photographer"
           >
         </div>
         <article id="about-me">
@@ -278,7 +279,7 @@
       <section id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
-          <div class="gallery" style="display: none">
+          <div class="gallery" style="display: none" aria-label="gallery">
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
@@ -355,7 +356,7 @@
           </figure>
         </article>
       </section>
-      <section id="services">
+      <section id="services" aria-label="services">
         <h2 class="title">Mes services</h2>
         <div class="container">
           <article class="service">
@@ -413,7 +414,7 @@
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </section>
-      <section id="contact">
+      <section id="contact" aria-label="contact">
         <div class="container">
           <div class="form-container">
             <h3>Une question ? Une demande de devis ?</h3>
@@ -447,7 +448,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer aria-label="contact details">
       <address class="infos">
         <a
           href="https://maps.google.com/maps?q=68+Avenue+Alsace-Lorraine,+33200+Bordeaux"
