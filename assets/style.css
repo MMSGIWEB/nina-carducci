@@ -31,6 +31,9 @@ body {
 
 .nav li {
   padding-inline: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
 }
 
 .nav a {
@@ -90,7 +93,7 @@ body {
 }
 
 #gallery {
-  /*	min-height: 100vh; */
+  	min-height: 100vh;
 }
 .title {
   text-align: center;
@@ -102,7 +105,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: rgb(102 55 31);
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -246,21 +249,20 @@ input[type="submit"] {
 
 footer {
   background: #d1c08500;
-  color: #00000085;
   padding-block: 1.5em;
   text-align: center;
+  font-size: 2em;
 }
 
-footer p a,
+footer h3 a,
 address a {
-  color: #00000085;
   text-decoration: none;
+  color: #000000;
 }
 
-footer p a,
+footer h3 a,
 address a:hover {
   text-decoration: underline;
-  color: #00000085;
 }
 
 @media all and (max-width: 1180px) {

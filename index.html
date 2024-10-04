@@ -57,7 +57,7 @@
 		immortaliser vos moments de bonheur. Visitez mon site : https://mmsgiweb.github.io/nina-carducci/"
     >
     <link rel="stylesheet preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
-    <link rel="stylesheet" href="./assets/stylemini.css" >
+    <link rel="stylesheet" href="./assets/style.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
@@ -117,7 +117,7 @@
   <body>
     <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
-      <nav class="nav">
+      <nav class="nav" aria-label="navigation menu">
         <ul>
           <li><a href="#about">À propos</a></li>
           <li><a href="#gallery">Galerie</a></li>
@@ -128,10 +128,11 @@
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
+              aria-label="instagram link"
               ><img
                 src="assets/images/instagram.png"
                 alt="instagram"
-                style="width: 20px"
+                style="width: 50%"
             ></a>
           </li>
         </ul>
@@ -176,8 +177,10 @@
                   ./assets/images/slider/375/manInASuit-375.webp    375w,
                   ./assets/images/slider/425/manInASuit-425.webp    425w,
                   ./assets/images/slider/768/manInASuit-768.webp    768w,
+                  ./assets/images/slider/864/manInASuit-864.webp    864w,
                   ./assets/images/slider/1024/manInASuit-1024.webp 1024w,
                   ./assets/images/slider/1440/manInASuit-1440.webp 1440w,
+                  ./assets/images/slider/1670/manInASuit-1670.webp 1670w,
                   ./assets/images/slider/1920/manInASuit-1920.webp 1920w
                 "
                 sizes="100vw"
@@ -248,7 +251,7 @@
           <img
             src="./assets/images/nina-467.webp"
             alt="Nina Cadurcci's photo"
-            style="width: 100%; height: auto"
+            style="max-width: 550; max-height: 558;"
           >
         </div>
         <article id="about-me">
@@ -280,60 +283,60 @@
               data-gallery-tag="Concert"
               class="gallery-item"
               src="./assets/images/gallery/concerts/aaron-paul-467.webp"
-              alt="concert"
+              alt="concert"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/ali-morshedlou-467.webp"
-              alt="business man"
+              alt="business man"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/jason-goodman-467.webp"
-              alt="business employees"
+              alt="business employees"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/hannah-busing-467.webp"
-              alt="hands hanging"
+              alt="hands hanging"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
               src="./assets/images/gallery/portraits/ade-tunji-467.webp"
               rel="preload"
-              alt="man closing his eyes"
+              alt="man closing his eyes"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/jakob-owens-467.webp"
               rel="preload"
-              alt="photo of newlyweds couple"
+              alt="photo of newlyweds couple"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
               src="./assets/images/gallery/portraits/nino-van-prattenburg-467.webp"
               rel="preload"
-              alt="photo of a woman"
+              alt="photo of a woman"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
               src="./assets/images/gallery/concerts/austin-neill-467.webp"
               rel="preload"
-              alt="photo of a singer in his concert"
+              alt="photo of a singer in his concert"  width="100%" height="100%"
             >
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/mateus-campos-felipe-467.webp"
               rel="preload"
-              alt="photo of an employee"
+              alt="photo of an employee"  width="100%" height="100%"
             >
           </div>
         </div>
@@ -435,10 +438,10 @@
           </div>
           <div class="picture right">
             <img
-              src="./assets/images/camera-467.webp"
+              src="./assets/images/camera-419.webp"
               rel="preload"
               alt="photo of camera"
-              style="width: 100%; height: 100%"
+              style="width: 100%; height: 90%"
             >
           </div>
         </div>
@@ -454,11 +457,11 @@
           <span>33200 Bordeaux</span>
         </a>
       </address>
-      <p>
+      <h3>
         Contact :
         <a href="tel=0556677889">05 56 67 78 89</a>
-      </p>
-      <p>Horaires : du Lundi au Vendredi - 10h00 à 19h00</p>
+      </h3>
+      <h3>Horaires : du Lundi au Vendredi - 10h00 à 19h00</h3>
     </footer>
   </body>
 </html>
