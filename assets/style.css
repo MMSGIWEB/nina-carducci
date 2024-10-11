@@ -75,11 +75,14 @@ body {
 }
 #about-me {
   flex: 2;
+  display: flex; 
+  flex-direction: column; 
+  gap: 2em;
 }
 .about-me__title {
   margin-top: 1em;
   margin-bottom: 60px;
-  font-size: 30px;
+  font-size: 2em;
 }
 .about-me__introduction {
   font-family: "Spectral";
@@ -87,9 +90,11 @@ body {
   font-style: italic;
   width: 100%;
 }
-#about-me p {
+#about-me h4 {
   width: 80%;
-  font-size: 14px;
+  color: black; 
+  font-weight: 550; 
+  font-size: 2em;
 }
 
 #gallery {
@@ -98,6 +103,7 @@ body {
 .title {
   text-align: center;
   padding-block: 2em;
+  font-weight:800;
 }
 .gallery .nav {
   justify-content: center;
