@@ -6,6 +6,7 @@ Portfolio
 Ce projet est le portfolio en ligne de Nina Carducci, une photographe basée à Bordeaux. Il a été amélioré pour assurer une meilleure accessibilité, des performances optimisées et un bon référencement SEO.
 
 ![Capture d'écran 2024-11-16 204252](https://github.com/user-attachments/assets/409696a0-cb29-42c7-b886-881ec235941f)
+
 ![Capture d'écran 2024-11-16 204305](https://github.com/user-attachments/assets/39ae456b-1782-46d2-8fc4-ac09b6061bfd)
 
 
