@@ -4,6 +4,7 @@ Projet 5 OpenClassrooms
 Portfolio
 
 Ce projet est le portfolio en ligne de Nina Carducci, une photographe basée à Bordeaux. Il a été amélioré pour assurer une meilleure accessibilité, des performances optimisées et un bon référencement SEO.
+
 ![Capture d'écran 2024-11-16 204252](https://github.com/user-attachments/assets/409696a0-cb29-42c7-b886-881ec235941f)
 ![Capture d'écran 2024-11-16 204252](https://github.com/user-attachments/assets/4d790210-efe3-4556-b06c-381a132ffc59)
 
